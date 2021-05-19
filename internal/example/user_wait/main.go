@@ -92,7 +92,7 @@ document.getElementById("refresh").onclick= function () { location.href = "/app"
 			if (waitSec < 0) {
 				waitSec = 0
 			}
-		document.write("wait "waitSec + "s");
+		document.write("wait " + waitSec + "s");
 document.write('<a href="`+ query.Get("retryURL") +`">jump</a>')
 		</script>
 		`)) ; if err != nil {
